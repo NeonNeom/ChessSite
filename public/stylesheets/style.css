@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 50px;
+  max-width: 100vw;
+  height: 100vh;
+  background-color: #212121;
+  color: antiquewhite;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.content{
+  width: 100%;
+  height: auto;
+  padding: 75px 50px;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+#board{
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  background-color: #303030;
+  border: 1px solid #000;
+  box-shadow: 0px 5px 90px 15px rgb(0,0,0, .2);
+}
+
+.row{
+  width:100%;
+  height: calc(600px /8);
+  margin: 0;
+}
+
+.cell{
+  background-color:darkred;
+  float: left;
+  width: calc(100% / 8);
+  height: calc(600px /8);
+  box-sizing: border-box;
+  border: 1px solid #000;
+}
+
+#output{
+  position: fixed;
+  bottom: 60px;
+  left: calc(50% - 100px);
+  width: 200px;
+  text-align: center;
+  font-size: 22px;
+}
+
+#cellOutput{
+  position: fixed;
+  bottom: 38px;
+  left: calc(50% - 100px);
+  width: 200px;
+  text-align: center;
+  font-size: 16px;
+}

@@ -15,6 +15,13 @@ block content
             div.cell(id=cellPosition)
             - y--;
           - x--;
+      - var q = 4;
+      while q > 0
+        - var w = 8;
+        while w > 0
+          div.cellPiece
+          - w--;
+        - q--;
   p#output Output
   p#cellOutput  
   script(src="/javascripts/chess.js")
